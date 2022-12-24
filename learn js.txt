@@ -1,0 +1,8 @@
+keywords in js to learn
+1. this()
+
+
+//other things to do
+1. get an good image of you from google.photos
+2. how to nest a class in another in css
+3. how to set up sass compiler

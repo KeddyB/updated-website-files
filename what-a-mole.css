@@ -1,0 +1,14 @@
+.gird{
+    width: 106px;
+    height: 106px;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    border: solid black 1px;
+}
+.mole{
+   background-image:url('mole.jpg');
+   background-size: cover;
+}
