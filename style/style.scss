@@ -114,8 +114,10 @@ section{
         transform:translateY(-5px); 
     }
     i{
-        position: relative;
-        top: 25%;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
         font-size: 1.4rem;
         color: var(--color-grey-2);
         pointer-events: none;
