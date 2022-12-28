@@ -848,7 +848,6 @@ body {
     color: var(--color-white) !important;
   }
   .controls .control {
-    top: -100%;
     cursor: pointer;
     background-color: var(--color-grey-4);
     width: 50px;
@@ -867,29 +866,33 @@ body {
   }
   /* header-content */
   .header-content {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    height: 70%;
+    height: 30%;
     text-align: center;
   }
   .header-content .left-header {
     display: flex;
     align-items: left;
     position: relative;
-    border-radius: 50%;
-    height: 100%;
+    height: 90%;
+    width: 20%;
   }
   .header-content .left-header .h-shape {
     transition: all 0.4s ease-in-out;
-    width: 19%;
+    width: 100%;
     height: 100%;
     background-color: var(--color-secondary);
     position: absolute;
+    border-radius: 50%;
+  }
+  .header-content .left-header .h-shape:hover {
+    cursor: default;
+    transform: translateY(5px);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.32);
   }
   .header-content .left-header .h-shape .grid {
     height: 100%;
     width: 100%;
-    left: 25px;
     position: relative;
     transition: all 0.4s ease-in-out;
     cursor: pointer;
@@ -907,6 +910,7 @@ body {
     -o-object-fit: contain;
        object-fit: contain;
     transition: all 0.4s ease-in-out;
+    border-radius: 50%;
   }
   .header-content .right-header {
     display: flex;
