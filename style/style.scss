@@ -860,7 +860,8 @@ body{
             }
         }
         .control{
-
+            position: relative;
+            top: 140px;   
             cursor: pointer;
             background-color: var(--color-grey-4);
             width: 50px;
@@ -869,7 +870,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: .5rem 0;
+            margin: .3rem .3rem .3rem .3rem;
             box-shadow: var(--box-shadow-1);
             i{
                 font-size: 1.2rem;
