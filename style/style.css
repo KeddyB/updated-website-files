@@ -507,7 +507,7 @@ body {
   }
   .blogs {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template: repeat(3, 1fr);
     grid-gap: 1.4rem;
     margin-top: 3rem;
     border-radius: 7px;
