@@ -78,7 +78,7 @@ body {
 .cookies-box {
   width: 300px;
   position: fixed;
-  bottom: 100px;
+  bottom: 150px;
   left: -400px;
   z-index: 1000;
   background-color: white;
