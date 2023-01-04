@@ -87,11 +87,11 @@ body{
     height: 30%;
     border-radius: 20%;
     object-fit: cover;
-    animation: image 10s linear;
+    animation: image 6s linear;
 }
 @keyframes image{
     0%{
-        transform: rotate(360deg);
+        transform: rotate(720deg);
     }
 }
 .cookies-box h3{
@@ -178,7 +178,6 @@ body{
     .active{
         display: block;
         animation: scaleAnim 650ms ease-in-out;
-        
     }
     
     .theme-btn{
@@ -421,7 +420,6 @@ body{
         .about-stats{
             grid-gap: 4rem;
             .progress-bars{
-                
                 .progress-bar{
                     display: flex;
                     flex-direction: column;
@@ -471,8 +469,7 @@ body{
                             .c{
                                 transition: all .4s ease-in-out;
                                 width: 56%;
-                                }
-        
+                              }
                             .s{
                                 transition: all .4s ease-in-out;
                                 width: 50%;
@@ -708,8 +705,6 @@ body{
         }
     }
     
-    
-    
     /* Independed components */
     .btn-con{
         display: flex;
@@ -745,7 +740,6 @@ body{
             z-index: -1;
         }
     }
-    
     .main-title{
         padding: -20%;
         text-align: center;
