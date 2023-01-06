@@ -98,19 +98,19 @@ body {
   border-radius: 20%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-animation: image 10s linear;
-          animation: image 10s linear;
+  -webkit-animation: image 6s linear;
+          animation: image 6s linear;
 }
 
 @-webkit-keyframes image {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
 @keyframes image {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 .cookies-box h3 {
