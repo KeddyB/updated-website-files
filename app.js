@@ -35,9 +35,13 @@ themeBtn.addEventListener('click', ()=>{
     element.classList.toggle('light-mode')
 })
 pageTransition()
+
+const cookieBox = document.querySelector(".cookies-box")
+
 window.onload = () =>{
     document.querySelector('.cookies-box').classList.add('cactive')
 }
 document.querySelector('.accept').onclick = () =>{
     document.querySelector('.cookies-box').classList.remove('cactive')
+    document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
 }
