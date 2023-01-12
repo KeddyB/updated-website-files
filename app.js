@@ -40,8 +40,10 @@ const cookieBox = document.querySelector(".cookies-box")
 
 window.onload = () =>{
     document.querySelector('.cookies-box').classList.add('cactive')
+    document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
 }
 document.querySelector('.accept').onclick = () =>{
     document.querySelector('.cookies-box').classList.remove('cactive')
     document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
 }
+document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
