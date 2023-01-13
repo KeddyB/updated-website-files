@@ -42,92 +42,81 @@ body{
     color: var(--color-white);
     transition: all .4s ease-in-out;
 }
-.cont{
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    padding-bottom: 60px;
-    background-color: rgb(18, 201, 94);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
-.cont .open-btn{
+body{
+    background: rgb(55, 211, 120);
+}
+.wrapper{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
     background: #fff;
-    color: #333;
-    border-radius: 5px;
-    height: 25px;
-    width: 100px;
-    font-size: 10px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
-    cursor: pointer;
-}
-.cont .open-btn:hover{
-   letter-spacing: .5px;
-   height: 27px;
-   width: 103px;
-}
-.cont .open-btn:active{
-    box-shadow: none;
-    transform: scale(.9);
-}
-.cookies-box{
-    width: 300px;
-    position: fixed;
-    bottom: 150px; left: -400px;
-    z-index: 1000;
-    background-color: white;
-    border-radius: 10px;
+    max-width: 300px;
+    border-radius: 3%;
     text-align: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
-    padding: 30px;
+    padding: 25px 25px 25px 25px;
 }
-.cookies-box.cactive{
-    left: 20px;
-}
-.cookies-box img{
-    width: 30%;
-    height: 30%;
-    border-radius: 20%;
-    object-fit: cover;
+.wrapper img{
+    max-width: 90px;
     animation: image 6s linear;
+    border-radius: 50%;
+}
+.wrapper.hide{
+    position: absolute;
+    left: -5000px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease;
 }
 @keyframes image{
     0%{
         transform: rotate(720deg);
     }
 }
-.cookies-box h3{
-    color: #666;
-    font-size: 13px;
-    padding: 5px 0;
-    line-height: 1.8;
+.wrapper contents{
+    margin-top: 10px;
 }
-.cookies-box .accept{
-    background: rgb(18, 201, 94);
+.contents header{
+    font-size: 25px;
+    font-weight: 350;
+}
+.contents p{
+    color: black;
+    margin: 5px 0 20px 0;
+}
+.contents .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    padding: 10px 20px;
+    background-color: rgb(55, 211, 120);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
     color: white;
-    border-radius: 5px;
-    display: block;
-    margin: 15px 0;
-    padding: 10px;
-}
-.cookies-box .accept:hover{
-    letter-spacing: .6px;
-    opacity: .5;
-}
-.cookies-box .setting{
-    color: rgb(82, 76, 76);
-}
-.cookies-box .setting:hover{
-    color: rgb(18, 201, 94);
-}
-
-.cookie-box .close-btn{
-    position: relative;
-    top: -2px; right: 12px;
-    font-size: 40px;
-    color: #999;
     cursor: pointer;
 }
-.cookie-box .close-btn:hover{
-    color: #333;
+.buttons button:hover{
+    font-size: 17px;
+}
+.buttons a{
+    color: rgb(55, 211, 120);
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.buttons a:hover{
+    font-size: 15px;
 }
 @media only screen and (min-width: 900px){
     a{  
