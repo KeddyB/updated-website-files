@@ -12,6 +12,65 @@ body{
     bottom: 30px;
     left: 30px;
     background: #fff;
-    max-width: 40%;
+    max-width: 300px;
     border-radius: 3%;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+.wrapper img{
+    max-width: 90px;
+    animation: image 6s linear;
+    border-radius: 50%;
+}
+.wrapper.hide{
+    position: absolute;
+    left: -5000px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+@keyframes image{
+    0%{
+        transform: rotate(720deg);
+    }
+}
+.wrapper content{
+    margin-top: 10px;
+}
+.content header{
+    font-size: 25px;
+    font-weight: 350;
+}
+.content p{
+    color: black;
+    margin: 5px 0 20px 0;
+}
+.content .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    padding: 10px 20px;
+    background-color: rgb(55, 211, 120);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.buttons button:hover{
+    font-size: 17px;
+}
+.buttons a{
+    color: rgb(55, 211, 120);
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.buttons a:hover{
+    font-size: 15px;
 }
