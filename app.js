@@ -52,4 +52,3 @@ acceptBtn.onclick = ()=>{
 //check if the cookie has expired and show the cookie box
 let checkCookie = document.cookie.indexOf("CookieBy=Keddy")
 checkCookie != -1 ? cookieBox.classList.add("hide"): cookieBox.classList.remove("hide")
-
