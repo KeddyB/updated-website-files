@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: rgb(55, 211, 120);
+}
+.wrapper{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: #fff;
+    max-width: 40%;
+    border-radius: 3%;
+}
