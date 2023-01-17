@@ -46,11 +46,12 @@ body{
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background: var(--color-white);
+    background: var(--color-grey-5);
     max-width: 300px;
     border-radius: 3%;
     text-align: center;
     padding: 25px 25px 25px 25px;
+    box-shadow: 0px 1px 15px rgba(0,0,0,.1);
 }
 .wrapper img{
     max-width: 90px;
@@ -115,7 +116,7 @@ a{
     color:inherit;
     font-family: inherit;
 }
-header{
+header.header{
     height:100vh;
     color: var(--color-white);
     overflow: hidden;
