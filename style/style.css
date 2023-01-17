@@ -683,7 +683,7 @@ section {
   border: none;
   background-color: var(--color-white);
   width: 100%;
-  color: white;
+  color: var(--color-grey-5);
   resize: none;
 }
 .contact-content-con .right-contact .i-c-2 {
