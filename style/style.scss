@@ -754,6 +754,15 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (min-width: 750px) {
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-gap: 1.4rem;
+        margin-top: 3rem;
+        border-radius: 7px;
+    }
+}
 @media (min-width: 500px) and (max-width: 750px){
     body{
         font-family: poppins, "sans-serif";
