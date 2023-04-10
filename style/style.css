@@ -774,6 +774,17 @@ footer {
   }
 }
 @media (min-width: 500px) and (max-width: 750px) {
+  .sec2 {
+    font-family: poppins, "sans-serif";
+    width: 95%;
+    background: var(--color-grey-5);
+  }
+  .sec4 {
+    font-family: poppins, "sans-serif";
+    width: 80%;
+    background: var(--color-grey-5);
+    padding-left: 20%;
+  }
   .blogs {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
