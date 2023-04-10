@@ -37,14 +37,6 @@
   outline: none;
 }
 
-body {
-  background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
-  font-size: 1.1rem;
-  color: var(--color-white);
-  transition: all 0.4s ease-in-out;
-}
-
 .wrapper {
   position: fixed;
   bottom: 30px;
@@ -761,6 +753,18 @@ footer {
 }
 
 @media (min-width: 750.5px) {
+  .sec2 {
+    font-family: poppins, "sans-serif";
+    width: 80%;
+    background: var(--color-grey-5);
+    padding-left: 20%;
+  }
+  .sec4 {
+    font-family: poppins, "sans-serif";
+    width: 80%;
+    background: var(--color-grey-5);
+    padding-left: 20%;
+  }
   .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
