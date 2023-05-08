@@ -243,7 +243,8 @@ section{
     }
 }
 .send{
-    background-color: #27AE60;
+    background-color: var(--color-secondary);
+    color: var(--color-grey-4);
     width: 100%;
     padding: 10px 10px;
     border: none;
