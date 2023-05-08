@@ -242,7 +242,16 @@ section{
         }
     }
 }
-
+.send{
+    background-color: #27AE60;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+}
 /* header-content */
 .header-content{
     display: grid;
