@@ -270,12 +270,12 @@ section {
   background-color: var(--color-secondary);
   color: var(--color-grey-4);
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px 45%;
   border: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  text-align: center;
   border-radius: 15px;
+  font-size: 15px;
 }
 
 /* header-content */
