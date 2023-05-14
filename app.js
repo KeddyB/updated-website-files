@@ -36,14 +36,6 @@ themeBtn.addEventListener('click', ()=>{
 })
 pageTransition()
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Check if a theme preference is stored in localStorage
-    var savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-        document.body.classList.add(savedTheme);
-    }
-});
-
 const cookieBox = document.querySelector(".wrapper");
 acceptBtn = cookieBox.querySelector('.buttons button')
 
