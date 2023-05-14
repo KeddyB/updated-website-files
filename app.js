@@ -29,10 +29,21 @@ function pageT(e){
     }
 }
 //toggle theme
+document.addEventListener("DOMContentLoaded", function() {
+    // Check if a theme preference is stored in localStorage
+    var savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+});
+
 const themeBtn = document.querySelector('.theme-btn')
 themeBtn.addEventListener('click', ()=>{
     let element = document.body
     element.classList.toggle('light-mode')
+
+    var currentTheme = body.classList.contains("light-mode") ? "light-mode" : "root";
+    localStorage.setItem("theme", currentTheme);
 })
 pageTransition()
 
