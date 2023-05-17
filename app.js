@@ -42,7 +42,7 @@ themeBtn.addEventListener('click', ()=>{
     let element = document.body
     element.classList.toggle('light-mode')
 
-    var currentTheme = body.classList.contains("light-mode") ? "light-mode" : "root";
+    var currentTheme = body.classList.contains("light-mode") ? "light-mode" : ":root";
     localStorage.setItem("theme", currentTheme);
 })
 pageTransition()
