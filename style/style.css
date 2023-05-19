@@ -774,7 +774,6 @@ footer {
   .blogs {
     font-family: poppins, "sans-serif";
     width: 85%;
-    background: var(--color-grey-5);
     padding-left: 15%;
     display: grid;
     grid-gap: 1rem;
@@ -785,7 +784,6 @@ footer {
   .blogs {
     font-family: poppins, "sans-serif";
     width: 88%;
-    background: var(--color-grey-5);
     padding-left: 12%;
     display: grid;
     grid-gap: 1rem;
