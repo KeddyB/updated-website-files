@@ -745,6 +745,7 @@ section {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 30px;
 }
 .main-title h2 span {
   color: var(--color-secondary);
