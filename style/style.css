@@ -35,6 +35,7 @@
   list-style: none;
   text-decoration: none;
   outline: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -609,7 +610,7 @@ section {
 
 .contact-content-con {
   display: flex;
-  padding-top: 3.5rem;
+  padding-top: 1rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
